@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Bazo Correa | Linktree</title>
-    <!-- Favicon -->
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/77023868?v=4" type="image/x-icon" />
-    <!-- Font Awesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!-- Core theme CSS -->
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Bazo Correa | Linktree</title>
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/77023868?v=4" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-  <body>
-    <!-- Parallax Pixel Background Animation -->
-    <section class="animated-background">
-      <div id="stars1"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </section>
-    <!-- End of Parallax Pixel Background Animation -->
-
-    <a id="profilePicture" href="#popup">
-      <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
-    </a>
-
-    <div class="overlay" id="popup">
-      <div class="popup">
-        <div class="popup-photo">
-          <a href="https://avatars.githubusercontent.com/u/77023868?v=4" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
-          </a>
+<body>
+  <header>
+    <nav>
+      <a id="profilePicture" href="#popup">
+        <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
+      </a>
+      <div class="overlay" id="popup">
+        <div class="popup">
+          <div class="popup-photo">
+            <a href="https://avatars.githubusercontent.com/u/77023868?v=4" target="_blank">
+              <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
+            </a>
+          </div>
+          <a class="popup-close" onclick="history.back()">&times;</a>
         </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
       </div>
-    </div>
-
-    <div id="userName">
-      @danibcorr
-    </div>
-
-    <div id="links">
-      <a class="link" href="https://github.com/danibcorr" target="_blank">
-        <i class="fab fa-github">&nbsp;</i>Github
-      </a>
-      <a class="link" href="https://www.linkedin.com/in/danibcorr" target="_blank">
-        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
-      </a>
-      <a class="link" href="https://danibcorr.gitbook.io/" target="_blank">
-        <i class="fa fa-book">&nbsp;</i>Personal Wiki (Spanish)
-      </a>
-    </div>
-
-  </body>
+      <div id="userName">
+        @danibcorr
+      </div>
+      <ul id="links">
+        <li>
+          <a class="link" href="https://github.com/danibcorr" target="_blank">
+            <i class="fab fa-github">&nbsp;</i>Github
+          </a>
+        </li>
+        <li>
+          <a class="link" href="https://www.linkedin.com/in/danibcorr" target="_blank">
+            <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+          </a>
+        </li>
+        <li>
+          <a class="link" href="https://danibcorr.gitbook.io/" target="_blank">
+            <i class="fa fa-book">&nbsp;</i>Personal Wiki (Spanish)
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</body>
 </html>
