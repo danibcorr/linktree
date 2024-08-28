@@ -1,12 +1,10 @@
 <h1 align="center">🌲 Linktree</h1>
-<h3 align="center">A simple site to unify all your social profiles in one place.</h3>
+<h3 align="center">A simple way to bring all my social profiles and projects together in one place.</h3>
 
-## 📜 Contents
+## 📜 Content
 
-On this page, you'll find a collection of projects I've worked on that I believe are of interest. The aim is to consolidate everything in one place for easy access and visualization.
+Explore a curated collection of my projects that I think you'll find interesting. This page is designed to consolidate everything into a single, easily accessible hub.
 
-## 💡 About the Project
+## 💡 About the project
 
-This open-source project offers a free alternative to Linktree. It's designed to help you aggregate and showcase your social media profiles and other important links efficiently. 
-
-Special thanks to [John Emerson](https://github.com/johnggli) for the inspiration and contributions to this project.
+This open-source project serves as a free alternative to Linktree, allowing you to efficiently aggregate and display your social media profiles and important links. Special thanks to [John Emerson](https://github.com/johnggli) for creating this project.
