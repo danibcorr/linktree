@@ -12,67 +12,129 @@
 
 <body>
 
-    <a id="profilePicture" href="#popup">
-        <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
-    </a>
-
-    <div class="overlay" id="popup">
-        <div class="popup">
-        <div class="popup-photo">
-            <a href="https://avatars.githubusercontent.com/u/77023868?v=4" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
+    <div id="profileSection">
+        <div id="profileImageContainer">
+            <a id="profilePicture" href="#popup">
+                <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
             </a>
         </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
+        <div id="profileInfo">
+            <h1 id="userName">Daniel Bazo Correa</h1>
+            <p id="userDescription">I am an Electronic Systems Engineer working primarily as a Data Scientist. I am
+                passionate about AI, data and its applications in enhancing human capabilities.</p>
+            <div id="socialLinks">
+                <a href="https://github.com/danibcorr" title="GitHub" target="_blank" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/danibcorr" title="LinkedIn" target="_blank" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
         </div>
     </div>
 
-    <div id="userName" style="text-align: center;">
-        Daniel Bazo Correa
-        <br>
-        @danibcorr
+    <div class="overlay" id="popup">
+        <div class="popup">
+            <div class="popup-photo">
+                <a href="https://avatars.githubusercontent.com/u/77023868?v=4" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
+                </a>
+            </div>
+            <a class="popup-close" onclick="history.back()">&times;</a>
+        </div>
     </div>
 
     <div id="links">
 
-        <a class="link" href="../index.html">
+        <a class="link" href="../index.html" style="margin-bottom: 50px;">
             <i class="fa fa-home">&nbsp;</i>Home
         </a>
 
-        <br>
-            <div id="userName" style="text-align: center">
-                <i class="fa fa-chart-bar" aria-hidden="true">&nbsp;</i>Data & AI Projects
+        <div id="titles">
+            <i class="fa fa-chart-bar" aria-hidden="true">&nbsp;</i>Data & AI Projects
+        </div>
+
+        <div id="projects"></div>
+        <div class="project">
+            <div class="project-header">
+                <h2 class="project-title">Machine Learning Wiki (Spanish)</h2>
+                <div class="project-links">
+                    <a href="https://github.com/danibcorr/machine-learning-wiki" title="GitHub" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://danibcorr.gitbook.io/" title="Sitio Web" target="_blank"><i
+                            class="fas fa-globe"></i></a>
+                </div>
             </div>
-        <br>
-
-        <a class="link" href="https://danibcorr.gitbook.io/" target="_blank">
-            <i class="fa fa-book">&nbsp;</i>Machine Learning Wiki (Spanish)
-        </a>      
-
-        <a class="link" href="https://github.com/danibcorr/MusicGenreClassifier" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Music Genre Classifier
-        </a>
-
-        <a class="link" href="https://github.com/danibcorr/streamlit-sales-suite" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Streamline Sales Suite 
-        </a>
-
-        <a class="link" href="https://github.com/danibcorr/papers-with-code" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Papers with Code
-        </a>
-
-        <a class="link" href="https://github.com/danibcorr/university-helper" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>University Helper
-        </a>
-
-        <a class="link" href="https://github.com/danibcorr/data-scientist-utilities" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Data Scientist Utilities Library
-        </a>
-
-        <a class="link" href="https://github.com/danibcorr/wattpad-mate" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Wattpad Mate
-        </a>
-
+            <p class="project-description">🏛️ Spanish Wiki to store and share my learning, notes and code in one place.
+                All with a focus on Machine Learning.</p>
+        </div>
+        <div class="project">
+            <div class="project-header">
+                <h2 class="project-title">Music Genre Classifier</h2>
+                <div class="project-links">
+                    <a href="https://github.com/danibcorr/MusicGenreClassifier" title="GitHub" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <p class="project-description">Music genre classifier for automatic equalization parameters for JamesDSP
+                using CNN with Transformers.</p>
+        </div>
+        <div class="project">
+            <div class="project-header">
+                <h2 class="project-title">Streamline Sales Suite</h2>
+                <div class="project-links">
+                    <a href="https://github.com/danibcorr/streamlit-sales-suite" title="GitHub" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <p class="project-description">📊 An all-encompassing web platform for data analysis and visualization,
+                powered by Streamlit, complemented by an automated item classifier that streamlines the process of label
+                assignment.</p>
+        </div>
+        <div class="project">
+            <div class="project-header">
+                <h2 class="project-title">Papers with Code</h2>
+                <div class="project-links">
+                    <a href="https://github.com/danibcorr/papers-with-code" title="GitHub" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <p class="project-description">📜 Machine Learning & Deep Learning Paper Implementations: Turning Research
+                into Code.</p>
+        </div>
+        <div class="project">
+            <div class="project-header">
+                <h2 class="project-title">University Helper</h2>
+                <div class="project-links">
+                    <a href="https://github.com/danibcorr/university-helper" title="GitHub" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <p class="project-description">🧑‍🎓 University Helper streamlines academic and administrative tasks for
+                students, educators, and researchers. It provides tools for managing document metadata, converting PDFs
+                to Markdown, transcribing audio, analyzing grade statistics, and more.</p>
+        </div>
+        <div class="project">
+            <div class="project-header">
+                <h2 class="project-title">Data Scientist Utilities Library</h2>
+                <div class="project-links">
+                    <a href="https://github.com/danibcorr/data-scientist-utilities" title="GitHub" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <p class="project-description">💻 Own library that I have developed to automate and streamline certain
+                processes during my work as a Data Scientist.</p>
+        </div>
+        <div class="project">
+            <div class="project-header">
+                <h2 class="project-title">Wattpad Mate</h2>
+                <div class="project-links">
+                    <a href="https://github.com/danibcorr/wattpad-mate" title="GitHub" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <p class="project-description">📚 Tool to obtain information from Wattpad and meet users with the same
+                tastes and who are accessible to interact with them.</p>
+        </div>
+    </div>
     </div>
 
 </body>

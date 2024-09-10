@@ -12,61 +12,115 @@
 
 <body>
 
-    <a id="profilePicture" href="#popup">
-        <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
-    </a>
-
-    <div class="overlay" id="popup">
-        <div class="popup">
-        <div class="popup-photo">
-            <a href="https://avatars.githubusercontent.com/u/77023868?v=4" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
+    <div id="profileSection">
+        <div id="profileImageContainer">
+            <a id="profilePicture" href="#popup">
+                <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
             </a>
         </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
+        <div id="profileInfo">
+            <h1 id="userName">Daniel Bazo Correa</h1>
+            <p id="userDescription">I am an Electronic Systems Engineer working primarily as a Data Scientist. I am
+                passionate about AI, data and its applications in enhancing human capabilities.</p>
+            <div id="socialLinks">
+                <a href="https://github.com/danibcorr" title="GitHub" target="_blank" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/danibcorr" title="LinkedIn" target="_blank" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
         </div>
     </div>
 
-    <div id="userName" style="text-align: center;">
-        Daniel Bazo Correa
-        <br>
-        @danibcorr
+    <div class="overlay" id="popup">
+        <div class="popup">
+            <div class="popup-photo">
+                <a href="https://avatars.githubusercontent.com/u/77023868?v=4" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
+                </a>
+            </div>
+            <a class="popup-close" onclick="history.back()">&times;</a>
+        </div>
     </div>
 
     <div id="links">
 
-        <a class="link" href="../index.html">
+        <a class="link" href="../index.html" style="margin-bottom: 50px;">
             <i class="fa fa-home">&nbsp;</i>Home
         </a>
-        
-        <br>
-            <div id="userName" style="text-align: center">
-                <i class="fa fa-microchip">&nbsp;</i>Electronics Projects
+
+        <div id="titles" style="text-align: center">
+            <i class="fa fa-microchip">&nbsp;</i>Electronics Projects
+        </div>
+
+        <div id="projects">
+            <div class="project">
+                <div class="project-header">
+                    <h2 class="project-title">Environmental Monitoring System (Spanish)</h2>
+                    <div class="project-links">
+                        <a href="https://github.com/danibcorr/monitoreo-ambiental-IoT" target="_blank" title="GitHub"
+                            target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <p class="project-description">🚨 IoT monitoring system for wireless communications using Arduino and
+                    ESP32. Proposal made for the final project of the Master in Telematics and Telecommunication
+                    Networks of the UMA, in the subject of Software Engineering for the Internet of Things.</p>
             </div>
-        <br>
 
-        <a class="link" href="https://github.com/danibcorr/monitoreo-ambiental-IoT" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Environmental Monitoring System
-        </a>
+            <div class="project">
+                <div class="project-header">
+                    <h2 class="project-title">Electronics with Tiva C</h2>
+                    <div class="project-links">
+                        <a href="https://github.com/danibcorr/electronics-with-tivac" target="_blank" title="GitHub"
+                            target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <p class="project-description">🎛️ Embedded Systems Project with Tiva C, using UART and I2C
+                    communications.</p>
+            </div>
 
-        <a class="link" href="https://github.com/danibcorr/electronics-with-tivac" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Electronics with Tiva C
-        </a>
-        
-        <a class="link" href="https://github.com/danibcorr/electronics-with-arduino-uma" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Electronics with Arduino
-        </a>
-        
-        <a class="link" href="https://github.com/danibcorr/kinect-power-point" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Kinect Controller for PowerPoint
-        </a>
-        
-        <a class="link" href="https://github.com/JeyJeysp/Microbotics_UMA" target="_blank">
-            <i class="fab fa-github">&nbsp;</i>Sumo Microbot
-        </a>
-    
+            <div class="project">
+                <div class="project-header">
+                    <h2 class="project-title">Electronics with Arduino</h2>
+                    <div class="project-links">
+                        <a href="https://github.com/danibcorr/electronics-with-arduino-uma" target="_blank"
+                            title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instructables.com/Robotic-Arm-Ft-Arduino-Mega-TheGHIZmo-Aarav-G/"
+                            title="Instructables" target="_blank"><i class="fas fa-globe"></i></a>
+                        <a href="https://www.youtube.com/watch?v=XPU3eNG0Fps" title="YouTube" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <p class="project-description">🎛️ This repository contains a collection of Arduino and Processing
+                    projects developed for the Creative Electronics course at the University of Málaga (UMA). The main
+                    focus is on a robotic arm project, with additional work on piezoelectric sensors and LED lamps.</p>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h2 class="project-title">Kinect Controller for PowerPoint</h2>
+                    <div class="project-links">
+                        <a href="https://github.com/danibcorr/kinect-power-point" target="_blank" title="GitHub"
+                            target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <p class="project-description">👀 Development of a program that allows natural control of PowerPoint
+                    presentations using gestures and voice.</p>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h2 class="project-title">Sumo Microbot</h2>
+                    <div class="project-links">
+                        <a href="https://github.com/JeyJeysp/Microbotics_UMA" target="_blank" title="GitHub"
+                            target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/watch?v=QDrDcFWdLiE" title="YouTube" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <p class="project-description">Design of a 'Sumo' Microbot.</p>
+            </div>
+        </div>
     </div>
-
 </body>
 
 </html>
