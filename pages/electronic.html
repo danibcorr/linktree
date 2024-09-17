@@ -1,56 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>danibcorr | Electronics</title>
+    <title>Daniel Bazo Correa - Electronics</title>
     <link rel="icon" href="https://avatars.githubusercontent.com/u/77023868?v=4" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-
-    <div id="profileSection">
+    <header id="profileSection">
         <div id="profileImageContainer">
-            <a id="profilePicture" href="#popup">
+            <a href="#popup" id="profilePicture">
                 <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
             </a>
         </div>
         <div id="profileInfo">
             <h1 id="userName">Daniel Bazo Correa</h1>
-            <p id="userDescription">I am an Electronic Systems Engineer working primarily as a Data Scientist. I am
-                passionate about AI, data and its applications in enhancing human capabilities.</p>
+            <p id="userDescription">I am an Electronic Systems Engineer working primarily as a Data Scientist. I am passionate about AI, data and its applications in enhancing human capabilities.</p>
             <div id="socialLinks">
-                <a href="https://github.com/danibcorr" title="GitHub" target="_blank" target="_blank"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/danibcorr" title="LinkedIn" target="_blank" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/danibcorr" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/danibcorr" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
-    </div>
-
-    <div class="overlay" id="popup">
-        <div class="popup">
-            <div class="popup-photo">
-                <a href="https://avatars.githubusercontent.com/u/77023868?v=4" target="_blank">
+        <div id="popup" class="overlay">
+            <div class="popup">
+                <div class="popup-photo">
                     <img src="https://avatars.githubusercontent.com/u/77023868?v=4" alt="Profile Picture">
-                </a>
+                </div>
+                <a href="#" class="popup-close" aria-label="Close">&times;</a>
             </div>
-            <a class="popup-close" onclick="history.back()">&times;</a>
         </div>
-    </div>
+    </header>
 
-    <div id="links">
+    <main>
+        <nav id="links">
+            <a class="link" href="../index.html"><i class="fa fa-home">&nbsp;</i>Home</a>
+        </nav>
 
-        <a class="link" href="../index.html" style="margin-bottom: 50px;">
-            <i class="fa fa-home">&nbsp;</i>Home
-        </a>
-
-        <div id="titles" style="text-align: center">
-            <i class="fa fa-microchip">&nbsp;</i>Electronics Projects
-        </div>
+        <section id="titles"><h2>Electronics Projects</h2></section>
 
         <div id="projects">
             <div class="project">
@@ -120,7 +108,7 @@
                 <p class="project-description">Design of a 'Sumo' Microbot.</p>
             </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
